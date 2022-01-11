@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Ns Technology</title>
+
+        <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+        <!-- Bootstrap -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="assets/css/animate.css" />
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+        <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+        <script src="assets/js/prefixfree.js"></script>
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+        <header class="header bg-main" id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg navbar-dark bg-main">
+                            <a class="navbar-brand" href="index.html"><img src="assets/img/logo_navbar.svg" alt="Logo" /> </a>
+                            <button
+                                class="navbar-toggler"
+                                type="button"
+                                data-toggle="collapse"
+                                data-target="#collapsibleNavId"
+                                aria-controls="collapsibleNavId"
+                                aria-expanded="false"
+                                aria-label="Toggle navigation"
+                            >
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavId">
+                                <ul id="top-menu" class="navbar-nav mt-2 mt-lg-0">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="#main-header">Главная</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#main-content">О компании</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#roadmap">Roadmap</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#team">Команда</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#products">Продукты</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#!" id="dropdownId" aria-haspopup="true" aria-expanded="false"
+                                            ><img class="flag-img" src="assets/img/ru.jpg" alt="EN" /> RU</a
+                                        >
+                                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                            <a class="dropdown-item" href="#"> <img class="flag-img" src="assets/img/en.jpg" alt="EN" /> EN </a>
+                                            <a class="dropdown-item" href="#"> <img class="flag-img-2" src="assets/img/ru.jpg" alt="RU" /> RU </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <form class="form-inline my-2 my-lg-0 ml-auto">
+                                    <button class="btn btn-main my-2 my-sm-0" type="submit">Вход</button>
+                                    <button class="btn btn-main btn-reg my-2 my-sm-0" type="submit">Регистрация</button>
+                                </form>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="main-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 d-flex ai-center">
+                        <div class="main-header_text text-white wow fadeInLeft" data-wow-duration="1s">
+                            <img class="img-text-header" src="assets/img/text_logo_header.svg" alt="" />
+                            <div class="demo-text">
+                                <div class="texts">
+                                    <p data-in-effect="fadeInLeft" data-out-effect="fadeOutLeft">Доступно каждому, стартуй с 10$</p>
+                                    <p data-in-effect="fadeInLeft" data-out-effect="fadeOutLeft" data-out-shuffle="true">Доход до 100% в год</p>
+                                    <p data-in-effect="fadeInLeft" data-out-effect="fadeOutLeft" data-out-shuffle="true">
+                                        Реферальное вознаграждение до 90%
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="mt-25 text-main">
+                                Создан с целью сделать самые трендовые продукты в мире<br />
+                                трейдинга, инвестирования и систем массфоловинга доступными для каждого человека!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInRight" data-wow-duration="1s">
+                        <div id="anim"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="slider">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 p-0">
+                        <div class="owl-carousel loop owl-theme bg-main">
+                            <div class="item">
+                                <div class="owl-box d-flex wow fadeIn" data-wow-duration="1s">
+                                    <div class="owl-box__img">
+                                        <a href="#" data-toggle="modal" data-target="#modelVideo1">
+                                            <img src="assets/img/banner_1.png" alt="" />
+                                        </a>
+
+                                        <p>Короткое описание видео</p>
+                                    </div>
+                                    <div class="owl-box__text">
+                                        <h4>Ознакомьтесь с нашими продуктами</h4>
+                                        <p class="text-muted">
+                                            С помощью просчитанной накопительной системы - вы сможете быстро и главное легко получить доступ к
+                                            продуктам платформы!
+                                        </p>
+                                        <a href="#"><button class="btn btn-main btn-slider mt-2">Начать</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="owl-box d-flex">
+                                    <div class="owl-box__img">
+                                        <a href="#" data-toggle="modal" data-target="#modelVideo2">
+                                            <img src="assets/img/banner_1.png" alt="" />
+                                        </a>
+                                        <p>Короткое описание видео</p>
+                                    </div>
+                                    <div class="owl-box__text">
+                                        <h4>Ознакомьтесь с нашими продуктами</h4>
+                                        <p class="text-muted">
+                                            С помощью просчитанной накопительной системы - вы сможете быстро и главное легко получить доступ к
+                                            продуктам платформы!
+                                        </p>
+                                        <a href="#"><button class="btn btn-main btn-slider mt-2">Начать</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="owl-box d-flex">
+                                    <div class="owl-box__img">
+                                        <a href="#" data-toggle="modal" data-target="#modelVideo3">
+                                            <img src="assets/img/banner_1.png" alt="" />
+                                        </a>
+                                        <p>Короткое описание видео</p>
+                                    </div>
+                                    <div class="owl-box__text">
+                                        <h4>Ознакомьтесь с нашими продуктами</h4>
+                                        <p class="text-muted">
+                                            С помощью просчитанной накопительной системы вы сможете быстро и главное легко получить доступ к продуктам
+                                            платформы!
+                                        </p>
+                                        <a href="#"><button class="btn btn-main btn-slider mt-2">Начать</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="main-content" class="bg-main">
+            <div id="scene">
+                <img data-depth="0.5" src="assets/img/logo_for_bg.svg" alt="pattern" class="img-bg img-bg-1" />
+                <img data-depth="0.2" src="assets/img/logo_for_bg2.svg" alt="pattern" class="img-bg img-bg-2" />
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="title-box">
+                            <h2 class="main-title wow fadeInDown" data-wow-duration="1s">О компании</h2>
+                            <img src="assets/img/line.svg" class="img-line wow fadeInUp" data-wow-duration="1s" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row first-cards">
+                    <div class="col-lg-6">
+                        <div class="main-card wow fadeInLeft" data-wow-duration="1s">
+                            <img src="assets/img/company/icon 4.svg" alt="" class="rounded-circle" />
+                            <h5 class="mb-3 text-white">Доступность</h5>
+                            <p class="text-main">
+                                Компания создана с целью сделать самые трендовые направления в сфере инвестиций, трейдинга и массфолоувинга доступными
+                                для каждого человека!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="main-card wow fadeInRight" data-wow-duration="1s">
+                            <img src="assets/img/company/icon 1.svg" alt="" class="rounded-circle" />
+                            <h5 class="mb-3 text-white">Инвест. портфель</h5>
+                            <p class="text-main">
+                                В проекте внедрена накопительная система которая позволяет максимально быстро и выгодно создать инвестиционный
+                                портфель по фундаментальным принципам финансовой грамотности!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="main-card wow fadeInLeft" data-wow-duration="1s">
+                            <img src="assets/img/company/icon 2	.svg" alt="" class="rounded-circle" />
+                            <h5 class="mb-3 text-white">Пассивный доход</h5>
+                            <p class="text-main">
+                                Начиная с минимальных инвестиций и активности в своём бизнесе, каждый человек может выйти на достойный пассивный
+                                доход!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="main-card wow fadeInRight" data-wow-duration="1s">
+                            <img src="assets/img/company/icon 3.svg" alt="" class="rounded-circle" />
+                            <h5 class="mb-3 text-white">Продукты</h5>
+                            <p class="text-main">
+                                На платформе Ns Technology регулярно будут добавляться качественные продукты, о которых вы можете узнать в разделе
+                                продукты!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="roadmap" class="bg-main">
+            <div id="scene-2">
+                <img data-depth="0.2" src="assets/img/logo_for_bg3.svg" alt="pattern" class="img-bg img-bg-3" />
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="title-box">
+                            <h2 class="main-title wow fadeInDown" data-wow-duration="1s">Roadmap</h2>
+                            <img src="assets/img/line.svg" class="img-line wow fadeInUp" data-wow-duration="1s" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row wow fadeIn" data-wow-duration="1s">
+                    <div class="col-lg-12">
+                        <div class="owl-carousel owl-theme owl-second">
+                            <div class="item">
+                                <div class="owl-case">
+                                    <header>
+                                        <img src="assets/img/roadmap_wating.svg" alt="" />
+                                        <p class="text-main">август 2019</p>
+                                    </header>
+                                    <div class="owl-case_body">
+                                        <h5 class="text-white">WSB робот</h5>
+                                        <p class="text-main">
+                                            Первый запатентованный советник для рынка Forex с двухлетней репутацией! Средняя доходность 10-25% в
+                                            месяц!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="owl-case">
+                                    <header>
+                                        <img src="assets/img/roadmap_wating.svg" alt="" />
+                                        <p class="text-main">август 2019</p>
+                                    </header>
+                                    <div class="owl-case_body">
+                                        <h5 class="text-white">Skyindex</h5>
+                                        <p class="text-main">
+                                            Сингапурский фонд-индексов, умеет делать авто ребалансировку портфеля, это отличный способ долгосрочного
+                                            накопления капитала с минимальных инвестиций!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="owl-case">
+                                    <header>
+                                        <img src="assets/img/roadmap_wating.svg" alt="" />
+                                        <p class="text-main">сентябрь 2019</p>
+                                    </header>
+                                    <div class="owl-case_body">
+                                        <h5 class="text-white">ABA маркетинг</h5>
+                                        <p class="text-main">
+                                            Институциональный инвестор, осуществляет финансовый консалтинг, предоставляет доходность на ликвидных
+                                            счетах до 30% годовых в валюте, при открытии счета каждый клиент получает в подарок страхование жизни на
+                                            $10000.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="owl-case">
+                                    <header>
+                                        <img src="assets/img/roadmap_wating.svg" alt="" />
+                                        <p class="text-main">ноябрь 2019</p>
+                                    </header>
+                                    <div class="owl-case_body">
+                                        <h5 class="text-white">Недвижимость</h5>
+                                        <p class="text-main">
+                                            Участие в пулах объектов зарубежной недвижимости от $2000 и доходности от 10 до 40% годовых.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="owl-case">
+                                    <header>
+                                        <img src="assets/img/roadmap_wating.svg" alt="" />
+                                        <p class="text-main">декабрь 2019</p>
+                                    </header>
+                                    <div class="owl-case_body">
+                                        <h5 class="text-white">Запуск телеграмм букса</h5>
+                                        <p class="text-main">
+                                            Букс на основе телеграм бота, созданный для продвижения различных стартапов в медийной сфере! Возможность
+                                            заполучать доли стартапов за выполнение простых действий!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="team" class="bg-main">
+            <div id="scene-3">
+                <img data-depth="0.4" src="assets/img/logo_for_bg2.svg" alt="pattern" class="img-bg img-bg-4" />
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="title-box wow fadeIn" data-wow-duration="1s">
+                            <h2 class="main-title">Команда</h2>
+                            <img src="assets/img/line.svg" class="img-line" alt="" />
+                            <p class="text-main">
+                                Проект реализован командой профессионалов, которая<br />
+                                полноценно ведет проект в направлениях инвестиций,<br />
+                                трейдинга и инструментов массфолоувинга.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 wow fadeInLeft" data-wow-duration="1s">
+                        <div id="anim-2"></div>
+                    </div>
+                    <div class="col-lg-6 d-flex ai-center">
+                        <p class="text-main wow fadeInRight" data-wow-duration="1s">
+                            Мы придерживаемся самого эффективного принципа, формирование капитала по стратегии "искушенного инвестора", от известного
+                            финансиста Гарри Марковица. Его стратегии используют крупнейшие международные фонды и банки!<br />И только в рамках нашей
+                            платформы эта стратегия стала доступной для каждого пользователя с минимальными инвестициями!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="invest">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>
+                            Каждый инвестиционный инструмент или рекомендация проходит<br />
+                            целый ряд тестов и испытаний прежде чем зайти на платформу!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="products" class="bg-main">
+            <div id="scene-4">
+                <img data-depth="0.2" src="assets/img/logo_for_bg.svg" alt="pattern" class="img-bg img-bg-5" />
+                <img data-depth="0.5" src="assets/img/logo_for_bg2.svg" alt="pattern" class="img-bg img-bg-6" />
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="title-box">
+                            <h2 class="main-title wow fadeInDown" data-wow-duration="1s">Продукты</h2>
+                            <img src="assets/img/line.svg" class="img-line wow fadeIn" data-wow-duration="1s" alt="" />
+                            <p class="text-main wow fadeInUp" data-wow-duration="1s">
+                                На платформе Ns Technology есть несколько этапов,<br />
+                                каждый из которых открывает для пользователя доступ к<br />
+                                самым актуальным и трендовым продуктам на рынке!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-product">
+                    <div class="col-lg-8 wow fadeInLeft d-flex ai-center" data-wow-duration="1s">
+                        <div class="products-box">
+                            <h5 class="product-title">На первом этапе предоставляется<br />Форекс-робот для трейдинга на рынке Форекс</h5>
+                            <div class="products-text">
+                                <h4>Что такое роботы Форекс?</h4>
+                                <p>
+                                    Форекс-робот - это компьютерная программа, основанная на множестве торговых алгоритмов, которые помогают
+                                    определить, покупать или продавать определенную валютную пару в любой конкретный момент времени. Робот работает
+                                    24/5 !
+                                </p>
+                                <button class="btn btn-product btn-main">Перейти</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInRight d-flex justify-content-center" data-wow-duration="1s">
+                        <img src="assets/img/product1.svg" class="product-img" alt="" />
+                    </div>
+                </div>
+                <div class="row row-product">
+                    <div class="col-lg-4 wow fadeInLeft d-flex justify-content-center">
+                        <img src="assets/img/product2.svg" class="product-img" alt="" />
+                    </div>
+                    <div class="col-lg-8 wow fadeInRight">
+                        <div class="products-box">
+                            <h5 class="product-title">На втором этапе предоставляется<br />консервативный счет в европейской компании</h5>
+                            <div class="products-text">
+                                <h4>Что такое консервативный счет?</h4>
+                                <p>
+                                    Счет на котором ваши деньги работают по ставке 20-30% годовых, открывается счет в проверенной компании, которая
+                                    стабильно работает уже на протяжении 6 лет!<br />Компания является институциональным инвестором и размещает
+                                    капиталы инвесторов в более чем 50 направлений!<br />Его цель сформировать капитал для сохранения средств и
+                                    осуществления крупных покупок, так же имеет массу бонусов и опций о которых более детально вы можете изучить в
+                                    личном кабинете.
+                                </p>
+                                <button class="btn btn-product btn-main">Перейти</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-product">
+                    <div class="col-lg-8 wow fadeInLeft d-flex ai-center" data-wow-duration="1s">
+                        <div class="products-box">
+                            <h5 class="product-title">На первом этапе предоставляется<br />Форекс-робот для трейдинга на рынке Форекс</h5>
+                            <div class="products-text">
+                                <h4>Что такое роботы Форекс?</h4>
+                                <p>
+                                    Форекс-робот - это компьютерная программа, основанная на множестве торговых алгоритмов, которые помогают
+                                    определить, покупать или продавать определенную валютную пару в любой конкретный момент времени. Робот работает
+                                    24/5 !
+                                </p>
+                                <button class="btn btn-product btn-main">Перейти</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInRight d-flex justify-content-center" data-wow-duration="1s">
+                        <img src="assets/img/product3.svg" class="product-img" alt="" />
+                    </div>
+                </div>
+                <div class="row row-product">
+                    <div class="col-lg-4 wow fadeInLeft d-flex justify-content-center">
+                        <img src="assets/img/product4.svg" class="product-img" alt="" />
+                    </div>
+                    <div class="col-lg-8 wow fadeInRight">
+                        <div class="products-box">
+                            <h5 class="product-title">На втором этапе предоставляется<br />консервативный счет в европейской компании</h5>
+                            <div class="products-text">
+                                <h4>Что такое консервативный счет?</h4>
+                                <p>
+                                    Счет на котором ваши деньги работают по ставке 20-30% годовых, открывается счет в проверенной компании, которая
+                                    стабильно работает уже на протяжении 6 лет!<br />Компания является институциональным инвестором и размещает
+                                    капиталы инвесторов в более чем 50 направлений!<br />Его цель сформировать капитал для сохранения средств и
+                                    осуществления крупных покупок, так же имеет массу бонусов и опций о которых более детально вы можете изучить в
+                                    личном кабинете.
+                                </p>
+                                <button class="btn btn-product btn-main">Перейти</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="last">
+            <div class="containter">
+                <div class="row">
+                    <div class="col-lg-3 wow fadeInLeft" data-wow-duration="1s">
+                        <img src="assets/img/footer notebook.svg" alt="" />
+                    </div>
+                    <div class="col-lg-6 d-flex ai-center wow fadeInDown" data-wow-duration="1s">
+                        <h2>Получи свой шанс на состоятельную жизнь прямо сейчас!</h2>
+                        <a href="#"><button class="btn btn-main">Регистрация</button></a>
+                    </div>
+                    <div class="col-lg-3 wow fadeInRight" data-wow-duration="1s">
+                        <img src="assets/img/footer blocks.svg" alt="" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <a href="index.html"><img class="img-footer" src="assets/img/footer_logo.svg" alt="" /></a>
+                        <div class="links">
+                            <a href="agreement.html" class="text-muted">Пользовательское соглашение</a>
+                            <a href="policy.html" class="text-muted">Политика конфиденциальности</a>
+                        </div>
+                        <div class="soc-box">
+                            <a target="_blank" href="#"><i class="fab fa-vk"></i></a>
+                            <a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a target="_blank" href="tg://resolve?domain=nstechnology2019"><i class="fab fa-telegram-plane"></i></a>
+                            <a target="_blank" href="#"><i class="fab fa-twitter"></i></a>
+                            <a target="_blank" href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 d-flex">
+                        <ul class="ul-footer d-flex">
+                            <li class="nav-item"><a href="#header" class="nav-link">Главная</a></li>
+                            <li class="nav-item"><a href="#main-content" class="nav-link">О нас</a></li>
+                            <li class="nav-item"><a href="#roadmap" class="nav-link">Roadmap</a></li>
+                            <li class="nav-item"><a href="#products" class="nav-link">Продукты</a></li>
+                            <li class="nav-item"><a href="#team" class="nav-link">Команда</a></li>
+                        </ul>
+                    </div>
+                    <a class="a-up" href="#main-header">
+                        <button class="btn btn-up"><i class="fas fa-chevron-up"></i></button>
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <section id="footer-copy">
+            <div class="container">
+                <div class="row wow fadeInUp" data-wow-duration="1s">
+                    <div class="col-lg-12">
+                        <p><i class="fa fa-copyright" aria-hidden="true"></i>2019 Ns Technology. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="modal fade modelVideo" id="modelVideo1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title"></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="modal-product_text">
+                                        <iframe class="iframe-modal" src="https://www.youtube.com/embed/tgbNymZ7vqY"> </iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade modelVideo" id="modelVideo2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title"></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="modal-product_text">
+                                        <iframe class="iframe-modal" src="https://www.youtube.com/embed/tgbNymZ7vqY"> </iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade modelVideo" id="modelVideo3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title"></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="modal-product_text">
+                                        <iframe class="iframe-modal" src="https://www.youtube.com/embed/tgbNymZ7vqY"> </iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade modelVideo" id="modelVideo4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title"></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="modal-product_text">
+                                        <iframe class="iframe-modal" src="https://www.youtube.com/embed/tgbNymZ7vqY"> </iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="assets/js/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.lettering.js"></script>
+        <script src="assets/js/jquery.textillate.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="assets/js/anim/lottie.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+        <script src="assets/js/all.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                console.log('asdsa');
+            });
+
+            new WOW().init();
+
+            var scene = document.getElementById('scene');
+            var parallaxInstance = new Parallax(scene);
+
+            var scene = document.getElementById('scene-2');
+            var parallaxInstance = new Parallax(scene);
+
+            var scene = document.getElementById('scene-3');
+            var parallaxInstance = new Parallax(scene);
+
+            var scene = document.getElementById('scene-4');
+            var parallaxInstance = new Parallax(scene);
+
+            $(function () {
+                $('.demo-text').textillate({
+                    loop: true,
+                    initialDelay: 400,
+                    in: {
+                        // set the effect name
+
+                        // set the delay factor applied to each consecutive character
+                        delayScale: 1.5,
+
+                        // set the delay between each character
+                        delay: 30,
+
+                        // set to true to animate all the characters at the same time
+                        sync: false,
+
+                        // randomize the character sequence
+                        // (note that shuffle doesn't make sense with sync = true)
+                        shuffle: false,
+
+                        // reverse the character sequence
+                        // (note that reverse doesn't make sense with sync = true)
+                        reverse: false,
+                    },
+                    out: {
+                        delayScale: 1,
+                        delay: 20,
+                        sync: true,
+                        shuffle: false,
+                        reverse: false,
+                        callback: function () {},
+                    },
+                });
+            });
+
+            $('.loop').owlCarousel({
+                center: true,
+                items: 1,
+                loop: true,
+                nav: true,
+                margin: 10,
+                autoplay: false,
+                autoplayTimeout: 20000,
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    600: {
+                        items: 1,
+                    },
+                    1000: {
+                        items: 1,
+                    },
+                },
+            });
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 30,
+                nav: true,
+                dots: false,
+                autoplay: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    600: {
+                        items: 2,
+                    },
+                    1000: {
+                        items: 3,
+                    },
+                },
+            });
+
+            $.getJSON('assets/js/anim/header.json', function (json) {
+                var params = {
+                    container: document.getElementById('anim'),
+                    renderer: 'svg',
+                    loop: true,
+                    autoplay: true,
+                    animationData: json,
+                };
+                var anim = lottie.loadAnimation(params);
+            });
+
+            $.getJSON('assets/js/anim-2/business.json', function (json) {
+                var params = {
+                    container: document.getElementById('anim-2'),
+                    renderer: 'svg',
+                    loop: true,
+                    autoplay: true,
+                    animationData: json,
+                };
+                var anim = lottie.loadAnimation(params);
+            });
+
+            $('.popup').click(function () {
+                var $this = $(this);
+                var $iframe = $('<iframe>')
+                    .attr('src', $this.data('link'))
+                    .css({
+                        width: 100 + '%',
+                        height: 400,
+                    });
+                $('#video-view').append($iframe);
+                $iframe.wrap("<div class='class-video'>");
+            });
+        </script>
+        <script>
+            var sections = $('section'),
+                nav = $('nav'),
+                nav_height = nav.outerHeight();
+
+            $(window).on('scroll', function () {
+                var cur_pos = $(this).scrollTop();
+
+                sections.each(function () {
+                    var top = $(this).offset().top - nav_height,
+                        bottom = top + $(this).outerHeight();
+
+                    if (cur_pos >= top && cur_pos <= bottom) {
+                        nav.find('a').removeClass('active');
+                        sections.removeClass('active');
+
+                        $(this).addClass('active');
+                        nav.find('a[href="#' + $(this).attr('id') + '"]').addClass('active');
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>
